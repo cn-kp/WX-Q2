@@ -50,3 +50,17 @@ router.post("/", async (req, res) => {
 });
 
 module.exports = router;
+
+// copy into REST Client extension file for quick access
+// GET http://localhost:3001/api/Ascending
+
+// ###
+
+// POST http://localhost:3001/api
+// Content-Type: application/json
+
+// {
+//     "name": "asdpadample2",
+//     "price": "40",
+//     "recommended":false
+// }
